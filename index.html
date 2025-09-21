@@ -9,17 +9,17 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <!-- Your existing header content -->
-  
-  <!-- Floating video editing tools -->
-  <div class="floating-video-tool camera"></div>
-  <div class="floating-video-tool timeline"></div>
-  <div class="floating-video-tool scissors"></div>
-  <div class="floating-video-tool color-wheel"></div>
-  <div class="floating-video-tool microphone"></div>
-  <div class="floating-video-tool play"></div>
-  <div class="floating-video-tool effects"></div>
-  <div class="floating-video-tool sound-wave"></div>
+    <!-- Your existing header content -->
+
+    <!-- Floating video editing tools -->
+    <div class="floating-video-tool camera"></div>
+    <div class="floating-video-tool timeline"></div>
+    <div class="floating-video-tool scissors"></div>
+    <div class="floating-video-tool color-wheel"></div>
+    <div class="floating-video-tool microphone"></div>
+    <div class="floating-video-tool play"></div>
+    <div class="floating-video-tool effects"></div>
+    <div class="floating-video-tool sound-wave"></div>
 
     <style>
         * {
@@ -487,16 +487,16 @@
             opacity: 1;
         }
 
-        .skill-item.animate .w-60 {
-            width: 60%;
+        .skill-item.animate .w-55 {
+            width: 55%;
         }
 
         .skill-item.animate .w-50 {
             width: 50%;
         }
 
-        .skill-item.animate .w-70 {
-            width: 70%;
+        .skill-item.animate .w-52 {
+            width: 52%;
         }
 
 
@@ -946,445 +946,447 @@
             }
         }
 
-      /* Subtle pulse animation for interactive elements */
-.interactive-element {
-    animation: pulse 2s infinite;
-}
+        /* Subtle pulse animation for interactive elements */
+        .interactive-element {
+            animation: pulse 2s infinite;
+        }
 
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 30px rgba(52, 152, 219, 0.3);
-    }
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 30px rgba(52, 152, 219, 0.3);
+            }
 
-    50% {
-        box-shadow: 0 0 50px rgba(52, 152, 219, 0.6);
-    }
+            50% {
+                box-shadow: 0 0 50px rgba(52, 152, 219, 0.6);
+            }
 
-    100% {
-        box-shadow: 0 0 30px rgba(52, 152, 219, 0.3);
-    }
-}
+            100% {
+                box-shadow: 0 0 30px rgba(52, 152, 219, 0.3);
+            }
+        }
 
-/* Enhanced Footer Styling */
-.bg-dark {
-    background: linear-gradient(135deg, rgba(26, 35, 50, 0.95) 0%, rgba(44, 62, 80, 0.95) 100%) !important;
-    backdrop-filter: blur(20px);
-    border-top: 2px solid rgba(52, 152, 219, 0.3);
-    position: relative;
-    overflow: hidden;
-}
+        /* Enhanced Footer Styling */
+        .bg-dark {
+            background: linear-gradient(135deg, rgba(26, 35, 50, 0.95) 0%, rgba(44, 62, 80, 0.95) 100%) !important;
+            backdrop-filter: blur(20px);
+            border-top: 2px solid rgba(52, 152, 219, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
 
-.bg-dark::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background:
-        radial-gradient(circle at 20% 80%, rgba(52, 152, 219, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(26, 188, 156, 0.1) 0%, transparent 50%);
-    pointer-events: none;
-    z-index: 1;
-}
+        .bg-dark::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(52, 152, 219, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(26, 188, 156, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
 
-.container {
-    position: relative;
-    z-index: 2;
-}
+        .container {
+            position: relative;
+            z-index: 2;
+        }
 
-/* Enhanced heading styling */
-footer h5 {
-    font-size: clamp(2rem, 4vw, 2.8rem);
-    font-weight: 800;
-    color: #3498db;
-    margin-bottom: 2rem;
-    text-shadow: 0 0 20px rgba(52, 152, 219, 0.4);
-    position: relative;
-    display: inline-block;
-}
+        /* Enhanced heading styling */
+        footer h5 {
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 800;
+            color: #3498db;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 20px rgba(52, 152, 219, 0.4);
+            position: relative;
+            display: inline-block;
+        }
 
-footer h5::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 3px;
-    background: linear-gradient(90deg, #3498db, #1abc9c, #3498db);
-    border-radius: 2px;
-    animation: underlineGlow 2s ease-in-out infinite alternate;
-}
+        footer h5::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 3px;
+            background: linear-gradient(90deg, #3498db, #1abc9c, #3498db);
+            border-radius: 2px;
+            animation: underlineGlow 2s ease-in-out infinite alternate;
+        }
 
-@keyframes underlineGlow {
-    0% {
-        box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
-    }
+        @keyframes underlineGlow {
+            0% {
+                box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+            }
 
-    100% {
-        box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
-    }
-}
+            100% {
+                box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+            }
+        }
 
-/* Enhanced form styling */
-.form-control {
-    background: rgba(255, 255, 255, 0.08);
-    border: 2px solid rgba(52, 152, 219, 0.3);
-    color: white;
-    border-radius: 15px;
-    padding: 15px 20px;
-    font-size: 1.1rem;
-    transition: all 0.4s ease;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
+        /* Enhanced form styling */
+        .form-control {
+            background: rgba(255, 255, 255, 0.08);
+            border: 2px solid rgba(52, 152, 219, 0.3);
+            color: white;
+            border-radius: 15px;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
 
-.form-control:focus {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: #3498db;
-    box-shadow:
-        0 0 25px rgba(52, 152, 219, 0.4),
-        0 8px 25px rgba(0, 0, 0, 0.2);
-    color: white;
-    transform: translateY(-2px);
-}
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: #3498db;
+            box-shadow:
+                0 0 25px rgba(52, 152, 219, 0.4),
+                0 8px 25px rgba(0, 0, 0, 0.2);
+            color: white;
+            transform: translateY(-2px);
+        }
 
-.form-control::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-}
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 400;
+        }
 
-/* Enhanced button styling */
-.btn-primary {
-    background: linear-gradient(135deg, #3498db 0%, #2980b9 50%, #1abc9c 100%);
-    border: none;
-    padding: 15px 50px;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.4s ease;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(52, 152, 219, 0.3);
-}
+        /* Enhanced button styling */
+        .btn-primary {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 50%, #1abc9c 100%);
+            border: none;
+            padding: 15px 50px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(52, 152, 219, 0.3);
+        }
 
-.btn-primary::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s ease;
-}
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
 
-.btn-primary:hover::before {
-    left: 100%;
-}
+        .btn-primary:hover::before {
+            left: 100%;
+        }
 
-.btn-primary:hover {
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 15px 40px rgba(52, 152, 219, 0.4);
-    background: linear-gradient(135deg, #2980b9 0%, #3498db 50%, #1abc9c 100%);
-}
+        .btn-primary:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 40px rgba(52, 152, 219, 0.4);
+            background: linear-gradient(135deg, #2980b9 0%, #3498db 50%, #1abc9c 100%);
+        }
 
-.btn-primary:active {
-    transform: translateY(-1px) scale(1.02);
-}
+        .btn-primary:active {
+            transform: translateY(-1px) scale(1.02);
+        }
 
-/* Loading state styling */
-.btn-loading {
-    pointer-events: none;
-    opacity: 0.8;
-}
+        /* Loading state styling */
+        .btn-loading {
+            pointer-events: none;
+            opacity: 0.8;
+        }
 
-.btn-loading .loading-spinner {
-    display: inline-block;
-    animation: spin 1s linear infinite;
-}
+        .btn-loading .loading-spinner {
+            display: inline-block;
+            animation: spin 1s linear infinite;
+        }
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
 
-    100% {
-        transform: rotate(360deg);
-    }
-}
+            100% {
+                transform: rotate(360deg);
+            }
+        }
 
-/* Status messages */
-.status-message {
-    margin-top: 25px;
-    padding: 20px;
-    border-radius: 15px;
-    font-weight: 600;
-    text-align: center;
-    backdrop-filter: blur(10px);
-    animation: slideInUp 0.5s ease;
-}
+        /* Status messages */
+        .status-message {
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 15px;
+            font-weight: 600;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            animation: slideInUp 0.5s ease;
+        }
 
-.success-message {
-    background: rgba(39, 174, 96, 0.2);
-    border: 2px solid #27ae60;
-    color: #2ecc71;
-    box-shadow: 0 10px 25px rgba(39, 174, 96, 0.2);
-}
+        .success-message {
+            background: rgba(39, 174, 96, 0.2);
+            border: 2px solid #27ae60;
+            color: #2ecc71;
+            box-shadow: 0 10px 25px rgba(39, 174, 96, 0.2);
+        }
 
-.error-message {
-    background: rgba(231, 76, 60, 0.2);
-    border: 2px solid #e74c3c;
-    color: #e74c3c;
-    box-shadow: 0 10px 25px rgba(231, 76, 60, 0.2);
-}
+        .error-message {
+            background: rgba(231, 76, 60, 0.2);
+            border: 2px solid #e74c3c;
+            color: #e74c3c;
+            box-shadow: 0 10px 25px rgba(231, 76, 60, 0.2);
+        }
 
-@keyframes slideInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
+        @keyframes slideInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-/* Copyright styling */
-footer p {
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.7);
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(52, 152, 219, 0.2);
-    font-weight: 400;
-}
+        /* Copyright styling */
+        footer p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(52, 152, 219, 0.2);
+            font-weight: 400;
+        }
 
-/* Animation classes */
-.fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease;
-}
+        /* Animation classes */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
 
-.fade-in.animate {
-    opacity: 1;
-    transform: translateY(0);
-}
+        .fade-in.animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    .btn-primary {
-        padding: 12px 40px;
-        font-size: 1rem;
-    }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .btn-primary {
+                padding: 12px 40px;
+                font-size: 1rem;
+            }
 
-    footer h5 {
-        margin-bottom: 1.5rem;
-    }
+            footer h5 {
+                margin-bottom: 1.5rem;
+            }
 
-    .form-control {
-        padding: 12px 18px;
-        font-size: 1rem;
-    }
-}
+            .form-control {
+                padding: 12px 18px;
+                font-size: 1rem;
+            }
+        }
 
-/* Header floating video editing tools - Only for header section */
-header {
-    position: relative;
-    overflow: hidden;
-}
+        /* Header floating video editing tools - Only for header section */
+        header {
+            position: relative;
+            overflow: hidden;
+        }
 
-/* Video editing tool shapes */
-.floating-video-tool {
-    position: absolute;
-    color: rgba(52, 152, 219, 0.4);
-    font-size: 24px;
-    animation: floatVideoTool 12s infinite ease-in-out;
-    pointer-events: none;
-    z-index: 1;
-}
+        /* Video editing tool shapes */
+        .floating-video-tool {
+            position: absolute;
+            color: rgba(52, 152, 219, 0.4);
+            font-size: 24px;
+            animation: floatVideoTool 12s infinite ease-in-out;
+            pointer-events: none;
+            z-index: 1;
+        }
 
-/* Camera tool */
-.floating-video-tool.camera {
-    top: 15%;
-    left: 8%;
-    animation-delay: 0s;
-}
+        /* Camera tool */
+        .floating-video-tool.camera {
+            top: 15%;
+            left: 8%;
+            animation-delay: 0s;
+        }
 
-.floating-video-tool.camera::before {
-    content: "📹";
-}
+        .floating-video-tool.camera::before {
+            content: "📹";
+        }
 
-/* Timeline/Film strip */
-.floating-video-tool.timeline {
-    top: 25%;
-    right: 12%;
-    animation-delay: 3s;
-}
+        /* Timeline/Film strip */
+        .floating-video-tool.timeline {
+            top: 25%;
+            right: 12%;
+            animation-delay: 3s;
+        }
 
-.floating-video-tool.timeline::before {
-    content: "🎬";
-}
+        .floating-video-tool.timeline::before {
+            content: "🎬";
+        }
 
-/* Scissors (cut tool) */
-.floating-video-tool.scissors {
-    bottom: 30%;
-    left: 15%;
-    animation-delay: 6s;
-}
+        /* Scissors (cut tool) */
+        .floating-video-tool.scissors {
+            bottom: 30%;
+            left: 15%;
+            animation-delay: 6s;
+        }
 
-.floating-video-tool.scissors::before {
-    content: "✂️";
-}
+        .floating-video-tool.scissors::before {
+            content: "✂️";
+        }
 
-/* Color wheel */
-.floating-video-tool.color-wheel {
-    bottom: 20%;
-    right: 18%;
-    animation-delay: 9s;
-}
+        /* Color wheel */
+        .floating-video-tool.color-wheel {
+            bottom: 20%;
+            right: 18%;
+            animation-delay: 9s;
+        }
 
-.floating-video-tool.color-wheel::before {
-    content: "🎨";
-}
+        .floating-video-tool.color-wheel::before {
+            content: "🎨";
+        }
 
-/* Microphone */
-.floating-video-tool.microphone {
-    top: 40%;
-    left: 5%;
-    animation-delay: 1.5s;
-}
+        /* Microphone */
+        .floating-video-tool.microphone {
+            top: 40%;
+            left: 5%;
+            animation-delay: 1.5s;
+        }
 
-.floating-video-tool.microphone::before {
-    content: "🎤";
-}
+        .floating-video-tool.microphone::before {
+            content: "🎤";
+        }
 
-/* Play button */
-.floating-video-tool.play {
-    top: 60%;
-    right: 8%;
-    animation-delay: 4.5s;
-}
+        /* Play button */
+        .floating-video-tool.play {
+            top: 60%;
+            right: 8%;
+            animation-delay: 4.5s;
+        }
 
-.floating-video-tool.play::before {
-    content: "▶️";
-}
+        .floating-video-tool.play::before {
+            content: "▶️";
+        }
 
-/* Magic wand (effects) */
-.floating-video-tool.effects {
-    bottom: 45%;
-    right: 25%;
-    animation-delay: 7.5s;
-}
+        /* Magic wand (effects) */
+        .floating-video-tool.effects {
+            bottom: 45%;
+            right: 25%;
+            animation-delay: 7.5s;
+        }
 
-.floating-video-tool.effects::before {
-    content: "✨";
-}
+        .floating-video-tool.effects::before {
+            content: "✨";
+        }
 
-/* Sound wave */
-.floating-video-tool.sound-wave {
-    top: 35%;
-    right: 30%;
-    animation-delay: 10.5s;
-}
+        /* Sound wave */
+        .floating-video-tool.sound-wave {
+            top: 35%;
+            right: 30%;
+            animation-delay: 10.5s;
+        }
 
-.floating-video-tool.sound-wave::before {
-    content: "🔊";
-}
+        .floating-video-tool.sound-wave::before {
+            content: "🔊";
+        }
 
-@keyframes floatVideoTool {
-    0%, 100% {
-        transform: translateY(0px) rotate(0deg) scale(1);
-        opacity: 0.3;
-    }
-    
-    25% {
-        transform: translateY(-30px) rotate(90deg) scale(1.1);
-        opacity: 0.6;
-    }
-    
-    50% {
-        transform: translateY(-15px) rotate(180deg) scale(0.9);
-        opacity: 0.8;
-    }
-    
-    75% {
-        transform: translateY(-25px) rotate(270deg) scale(1.05);
-        opacity: 0.5;
-    }
-}
+        @keyframes floatVideoTool {
 
-/* Alternative version using CSS shapes instead of emojis */
-.floating-video-tool.shape {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: linear-gradient(45deg, rgba(52, 152, 219, 0.6), rgba(26, 188, 156, 0.6));
-    box-shadow: 0 0 15px rgba(52, 152, 219, 0.4);
-}
+            0%,
+            100% {
+                transform: translateY(0px) rotate(0deg) scale(1);
+                opacity: 0.3;
+            }
 
-.floating-video-tool.shape::before {
-    content: '';
-}
+            25% {
+                transform: translateY(-30px) rotate(90deg) scale(1.1);
+                opacity: 0.6;
+            }
 
-/* Timeline shape */
-.floating-video-tool.shape.timeline {
-    border-radius: 4px;
-    width: 30px;
-    height: 8px;
-    background: linear-gradient(90deg, 
-        rgba(52, 152, 219, 0.6) 0%, 
-        rgba(26, 188, 156, 0.6) 50%, 
-        rgba(52, 152, 219, 0.6) 100%);
-}
+            50% {
+                transform: translateY(-15px) rotate(180deg) scale(0.9);
+                opacity: 0.8;
+            }
 
-/* Camera shape */
-.floating-video-tool.shape.camera {
-    border-radius: 8px;
-    width: 24px;
-    height: 18px;
-    background: rgba(52, 152, 219, 0.6);
-    position: relative;
-}
+            75% {
+                transform: translateY(-25px) rotate(270deg) scale(1.05);
+                opacity: 0.5;
+            }
+        }
 
-.floating-video-tool.shape.camera::after {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 8px;
-    height: 8px;
-    background: rgba(26, 188, 156, 0.6);
-    border-radius: 50%;
-}
+        /* Alternative version using CSS shapes instead of emojis */
+        .floating-video-tool.shape {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, rgba(52, 152, 219, 0.6), rgba(26, 188, 156, 0.6));
+            box-shadow: 0 0 15px rgba(52, 152, 219, 0.4);
+        }
 
-/* Mobile responsive adjustments */
-@media (max-width: 768px) {
-    .floating-video-tool {
-        font-size: 18px;
-    }
-    
-    .floating-video-tool.shape {
-        width: 16px;
-        height: 16px;
-    }
-    
-    .floating-video-tool.shape.timeline {
-        width: 24px;
-        height: 6px;
-    }
-    
-    .floating-video-tool.shape.camera {
-        width: 20px;
-        height: 15px;
-    }
-}
+        .floating-video-tool.shape::before {
+            content: '';
+        }
+
+        /* Timeline shape */
+        .floating-video-tool.shape.timeline {
+            border-radius: 4px;
+            width: 30px;
+            height: 8px;
+            background: linear-gradient(90deg,
+                    rgba(52, 152, 219, 0.6) 0%,
+                    rgba(26, 188, 156, 0.6) 50%,
+                    rgba(52, 152, 219, 0.6) 100%);
+        }
+
+        /* Camera shape */
+        .floating-video-tool.shape.camera {
+            border-radius: 8px;
+            width: 24px;
+            height: 18px;
+            background: rgba(52, 152, 219, 0.6);
+            position: relative;
+        }
+
+        .floating-video-tool.shape.camera::after {
+            content: '';
+            position: absolute;
+            top: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 8px;
+            height: 8px;
+            background: rgba(26, 188, 156, 0.6);
+            border-radius: 50%;
+        }
+
+        /* Mobile responsive adjustments */
+        @media (max-width: 768px) {
+            .floating-video-tool {
+                font-size: 18px;
+            }
+
+            .floating-video-tool.shape {
+                width: 16px;
+                height: 16px;
+            }
+
+            .floating-video-tool.shape.timeline {
+                width: 24px;
+                height: 6px;
+            }
+
+            .floating-video-tool.shape.camera {
+                width: 20px;
+                height: 15px;
+            }
+        }
     </style>
 </head>
 
@@ -1507,13 +1509,7 @@ header {
                     </a>
                 </div>
 
-                <div class="col-auto scale-in">
-                    <a href="https://youtube.com/shorts/x1Tx5p65MqI?si=BF1e7BWfOM86VDZH" target="_blank"
-                        class="reel-link">
-                        <img src="https://img.youtube.com/vi/x1Tx5p65MqI/hqdefault.jpg
-" alt="Reel 6">
-                    </a>
-                </div>
+               
 
                 <div class="col-auto scale-in">
                     <a href="https://youtube.com/shorts/-NdZVeflwXY?si=2a-GzrFBl-24NDtm" target="_blank"
@@ -1522,6 +1518,34 @@ header {
 " alt="Reel 6">
                     </a>
                 </div>
+
+                <div class="col-auto scale-in">
+                    <a href="https://youtube.com/shorts/o2uOfCswae8?si=Ds52Bgy-utk1Pmjq" target="_blank"
+                        class="reel-link">
+                        <img src="https://img.youtube.com/vi/o2uOfCswae8/maxresdefault.jpg" alt="Reel 6">
+                    </a>
+                </div>
+
+
+
+                <div class="col-auto scale-in">
+                    <a href="https://youtube.com/shorts/xuOXhUpX8yU?si=GweyWDJdixcQmRVM" target="_blank"
+                        class="reel-link">
+                        <img src="https://img.youtube.com/vi/xuOXhUpX8yU/maxresdefault.jpg" alt="Reel 6">
+                    </a>
+                </div>
+
+
+
+                <div class="col-auto scale-in">
+                    <a href="https://youtube.com/shorts/bIZxUzIkUTc?si=ouJvz4mPqdSf6JRf" target="_blank"
+                        class="reel-link">
+                        <img src="https://img.youtube.com/vi/bIZxUzIkUTc/maxresdefault.jpg" alt="Reel 6">
+                    </a>
+                </div>
+
+
+
 
 
                 <!-- Reels -->
@@ -1599,21 +1623,21 @@ header {
                 <div class="skill-item">
                     <label><i class="fas fa-video me-2"></i>Motion Graphics</label>
                     <div class="skill-bar">
-                        <div class="skill-level w-60"></div>
+                        <div class="skill-level w-55"></div>
                     </div>
-                    <div class="skill-percentage">60%</div>
+                    <div class="skill-percentage">55%</div>
                 </div>
 
                 <div class="skill-item">
                     <label><i class="fas fa-exchange-alt me-2"></i>Transitions</label>
                     <div class="skill-bar">
-                        <div class="skill-level w-70"></div>
+                        <div class="skill-level w-52"></div>
                     </div>
-                    <div class="skill-percentage">70%</div>
+                    <div class="skill-percentage">52%</div>
                 </div>
 
                 <div class="skill-item">
-                    <label><i class="fas fa-image me-2"></i>Poster Design</label>
+                    <label><i class="fas fa-image me-2"></i>Poster Design</label> 
                     <div class="skill-bar">
                         <div class="skill-level w-40"></div>
                     </div>
